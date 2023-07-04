@@ -4,7 +4,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "docs:preview": "vitepress preview docs",
-    "build": "vuepress build"
+    "build": "vitepress build docs"
     },
   "engines": { "node": ">=18.0.0" }
 }
