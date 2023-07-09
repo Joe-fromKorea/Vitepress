@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Jokipedia2"
-  text: "Knowledges"
-  tagline: My great project tagline
+  name: "Wikipedia by Jo"
+  text: "Welcome to the website of knowledge"
+  tagline: Where all the knowledges are uploaded
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: About
+      link: /About/About
     - theme: alt
-      text: API Examples
+      text: Contact
       link: /api-examples
 
 features:
