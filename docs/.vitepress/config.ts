@@ -26,14 +26,14 @@ export default defineConfig({
           text: 'RC Plane',
           collapsed: true,
           items: [
-            { text: 'Making F-35 RC Plane',
+            { text: 'F-35 RC Plane',
             collapsed: true, 
             items: [
-              {
-              text: 'first', link: '/'
-            }
+              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'}
+            
           ],
-            link: '/Projects/subgroup/Making F-35 RC Plane' },
+            link: '/Projects/subgroup/F-35/Planning F-35' },
             { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
             { text: 'Two', link: '/guide/two' }
           ]
