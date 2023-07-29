@@ -21,13 +21,42 @@ The results are like below.
 <br>![3BSM bent](./images/BSM-smooth-bent-CFD-velocity.jpg)
 <br>![roll-post velocity](./images/BSM-bent-CFD-velocity.jpg)
 
+||||
+|------|------|------|
+|<img src="./images/roll-post-velocity.jpg" width="200" />|<img src="./images/BSM-smooth-bent-CFD-velocity.jpg" width="200" />|<img src="./images/BSM-bent-CFD-velocity.jpg" width="200" />|
+
+<p float="left">
+  <img src="./images/roll-post-velocity.jpg" width="100" />
+  <img src="./images/BSM-smooth-bent-CFD-velocity.jpg" width="100" /> 
+  <img src="./images/BSM-bent-CFD-velocity.jpg" width="100" />
+</p>
+
+<img src="./images/roll-post-velocity.jpg" width="425"/> <img src="./images/BSM-smooth-bent-CFD-velocity.jpg" width="425"/> 
+
+<p align="center">
+  <img alt="Light" src="./images/BSM-bent-CFD-velocity.jpg" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./images/BSM-smooth-bent-CFD-velocity.jpg" width="45%">
+</p>
 
 <img src="./images/F-35-fusion360.gif" alt="Girl in a jacket" style="width:600px;">
 
 
-<br> We printed almost all the parts using 3D printer in my school 
-<br> It's free for Korea University students :)
 
+
+<br> We printed almost all the parts using 3D printer in my school 
+<br> It's free for Korea University students :) 
+
+Below is the picture of our [Maker-Space](https://kums.korea.ac.kr/) and [X-garage](https://piville.kr/).
+<br>Both are maker space which can build various things using 3D printer, razor cutter, vacuum forming machine, etc.
+<br>Those places are my favorite in my school.
+
+|||
+|------|------|
+|<img src="./images/roll-post-velocity.jpg" width="500" />|<img src="./images/BSM-smooth-bent-CFD-velocity.jpg" width="500" />|
+|d|d|
+|d|d|
+|d|d|
 
 
 
