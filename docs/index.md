@@ -14,9 +14,13 @@ hero:
       text: Contact
       link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features: 
+  - title: F-35 RC Project
+    link: ./Projects/subgroup/F-35/Making F-35
+    icon:
+      src: ./Projects/subgroup/F-35/images/F-35.jpg 
+      style: width:auto; height:250px; 
+    details: My friend and I made our own RC plane from scratch!
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
