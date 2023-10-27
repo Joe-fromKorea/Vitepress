@@ -18,7 +18,7 @@ features:
   - title: F-35 RC Project
     link: ./Projects/subgroup/F-35/Making F-35
     icon:
-      src: ./Projects/subgroup/F-35/images/F-35.jpg 
+      src: https://jowikipedia.com/assets/F-35.65f7aacf.jpg
       style: width:auto; height:250px; 
     details: My friend and I made our own RC plane from scratch!
   - title: Feature B
