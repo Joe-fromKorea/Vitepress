@@ -25,45 +25,18 @@ export default defineConfig({
       '/About/': [
         //About
         {
-          text: 'About', link: '/About/About'
+          text: 'About', link: '/About/About', 
+          items:[]
         },
         //About me
         {
-          text: 'About me',
-          collapsed: true,
-          items: [
-            { text: 'F-35 RC Plane',
-            collapsed: true, 
-            items: [
-              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
-              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
-              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
-            
-          ],
-            link: '/Projects/subgroup/F-35/Planning F-35' },
-            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
-            { text: 'Two', link: '/guide/two' }
-          ]
+          text: 'About me', link: '/About/Aboutme',
+          items:[]     
         },
         //Contact
         {
-          text: 'Contact',
-          collapsed: true,
-          items: [
-            { text: 'F-35 RC Plane',
-            collapsed: true, 
-            items: [
-              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
-              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
-              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
-            
-          ],
-            link: '/Projects/subgroup/F-35/Planning F-35' },
-            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
-            { text: 'Two', link: '/guide/two' }
-          ]
+          text: 'Contact', link: '/About/Contact',
+          items: []
         }
       ],
       '/Projects/': [

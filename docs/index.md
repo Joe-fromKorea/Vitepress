@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Wikipedia by Jo"
   text: "Welcome to the website of knowledge"
-  tagline: Where all the knowledges are uploaded
+  tagline: Where all the knowledge are uploaded
   actions:
     - theme: brand
       text: About
