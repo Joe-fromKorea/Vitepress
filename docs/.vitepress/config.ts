@@ -1,7 +1,11 @@
 import { defineConfig } from 'vitepress'
 
+import mathjax3 from 'markdown-it-mathjax3';
+
+const customElements = ['mjx-container'];
+
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default /*defineConfig*/({
   title: "Jokipedia",
   description: "Knowledge",
   themeConfig: {
@@ -234,4 +238,18 @@ export default defineConfig({
     ]
   },
 
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag),
+      },
+    },
+  },
+
 })
+

@@ -5,6 +5,11 @@
     "docs:serve": "vitepress serve docs",
     "docs:preview": "vitepress preview docs",
     "build": "npm run docs:build"
-    },
-  "engines": { "node": ">=18.0.0" }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2"
+  }
 }
