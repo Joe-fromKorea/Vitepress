@@ -38,7 +38,7 @@ So I read almost all the documents in [Pixhawk](https://docs.px4.io/main/en/), [
 
 If you do not have much knowledge about this drone controlling systems, you also have to go with a lot of researches. 
 
-I will update the basic knowledge about drone systems later on in my [knowledge](/Knowledges/Knowledges).
+I will update the basic knowledge about drone systems later on in my [knowledge](/Knowledge/Knowledge).
 
 After reading those documents, our pipeline was
 
