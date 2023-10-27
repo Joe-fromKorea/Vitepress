@@ -89,18 +89,31 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
+
 /*About sidebar padding*/
 .VPSidebarItem.level-0[data-v-9a82e1d6] {
   padding-bottom: 10px;
 }
 
-/* About sidebar fontsize*/
-.text[data-v-9a82e1d6] {
-  font-size:16px;
-  font-weight:bold;
+/*local About sidebar padding*/
+.VPSidebarItem.level-0[data-v-849f0c72]{
+  padding-bottom: 10px;
 }
 
-/* About sidebar color*/
+
+/*About sidebar fontsize*/
+.text[data-v-9a82e1d6] {
+  font-size:15px;
+  
+}
+
+/*sidebar 2nd text fontsize*/
+.VPSidebarItem.level-1 .text[data-v-9a82e1d6], .VPSidebarItem.level-2 .text[data-v-9a82e1d6], .VPSidebarItem.level-3 .text[data-v-9a82e1d6], .VPSidebarItem.level-4 .text[data-v-9a82e1d6], .VPSidebarItem.level-5 .text[data-v-9a82e1d6]{
+  font-size: 14px;
+  color: rgb(235 235 245 / 60%)
+}
+
+/*About sidebar font color*/
 .VPSidebarItem.level-0 .text[data-v-9a82e1d6] {
   color: var(--vp-c-text-dark-1);
-}
+} 

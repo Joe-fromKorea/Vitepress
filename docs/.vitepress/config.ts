@@ -25,18 +25,25 @@ export default defineConfig({
       '/About/': [
         //About
         {
-          text: 'About', link: '/About/About', 
-          items:[]
+          text: 'About', collapsed: true, link: '/About/About', 
+          items:[
+            {text: 'Purpose', link: '/About/subgroup/Purpose'},
+            {text: 'Configuration', link: '/About/subgroup/Configuration'}
+          ]
         },
         //About me
         {
           text: 'About me', link: '/About/Aboutme',
-          items:[]     
+          items:[{
+            items:[]
+          }]     
         },
         //Contact
         {
           text: 'Contact', link: '/About/Contact',
-          items: []
+          items: [{
+            items:[]
+          }]
         }
       ],
       '/Projects/': [

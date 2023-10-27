@@ -11,8 +11,8 @@ hero:
       text: About
       link: /About/About
     - theme: alt
-      text: Contact
-      link: /api-examples
+      text: About me
+      link: /About/Aboutme
 
 features: 
   - title: F-35 RC Project
