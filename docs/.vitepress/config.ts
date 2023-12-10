@@ -96,18 +96,15 @@ export default /*defineConfig*/({
           text: 'Music',
           collapsed: true,
           items: [
-            { text: 'F-35 RC Plane',
+            { text: 'Opera', /*link: '/Projects/subgroup/F-35/Planning F-35'*/
             collapsed: true, 
             items: [
-              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
-              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
-              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
-            
+              {text: 'The Magic Flute', link: '/Knowledge/subgroup/Music/Opera/The_Magic_Flute'},
+              {text: 'La Boheme', link: '/Knowledge/subgroup/Music/Opera/La_Boheme'},            
           ],
-            link: '/Projects/subgroup/F-35/Planning F-35' },
-            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
-            { text: 'Two', link: '/guide/two' }
+            },
+            /*{ text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
+            { text: 'Two', link: '/guide/two' }*/
           ]
         },
         //Basketball
@@ -134,18 +131,58 @@ export default /*defineConfig*/({
           text: 'Engineering',
           collapsed: true,
           items: [
-            { text: 'F-35 RC Plane',
+            { text: 'Math',
             collapsed: true, 
             items: [
-              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
-              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
-              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
-            
-          ],
+              {text: 'Kalman Filter', link: '/Knowledge/supgroup/Engineering/Kalman_Filter'},
+              /*{text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},*/
+                   ],
             link: '/Projects/subgroup/F-35/Planning F-35' },
-            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
-            { text: 'Two', link: '/guide/two' }
+            { text: 'CFD',
+            collapsed: true, 
+            items: [
+              {text: 'Future of CFD', link: '/Knowledge/subgroup/Engineering/CFD/Future_of_CFD'},
+              {text: 'How_to_be_CFD_Engineer', link: '/Knowledge/subgroup/Engineering/CFD/How_to_be_CFD_Engineer'},
+                   ],
+            link: '/Projects/subgroup/F-35/Planning F-35' },
+                 ]
+        },
+        //Neuroscience
+        {
+          text: 'Neuroscience',
+          collapsed: true,
+          items: [
+            { text: 'About Neuroscience', link: '/Knowledge/subgroup/Neuroscience/About_neuroscience.md'},
+            { text: 'Fact', link: '/Knowledge/subgroup/Neuroscience/Fact.md'},
+            { text: 'Applying', link: '/Knowledge/subgroup/Neuroscience/Implementation.md' },
+            { text: 'Question', link: '/Knowledge/subgroup/Neuroscience/Question.md' }
+          ]
+        },
+        //Great People
+        {
+          text: 'Great People',
+          collapsed: true,
+          items: [
+            { text: 'Scientists', 
+              collapsed: true, 
+              items: [
+                      {text: 'Albert Einstein',
+                       collapsed: true,
+                       link: '/Knowledge/subgroup/Great_People/Scientist/Albert_Einstein.md'}
+                      ],
+              link: '/Knowledge/subgroup/Great_People/Scientist/Albert_Einstein.md'},
+            { text: 'Engineers', link: '/Knowledge/subgroup/Neuroscience/Fact.md'},
+            { text: 'Musician', 
+              collapsed: true, 
+              items: [
+                    {text: 'Luciano Pavarotti',
+                     collapsed: true,
+                     link: '/Knowledge/subgroup/Great_People/Musician/Luciano_Pavarotti/Luciano_Pavarotti.md'},
+                     {text: 'Fritz Wunderlich',
+                     collapsed: true,
+                     link: '/Knowledge/subgroup/Great_People/Musician/Fritz_Wunderlich/Fritz_Wunderlich.md'}
+                    ]
+             }
           ]
         }
       ],
@@ -228,6 +265,25 @@ export default /*defineConfig*/({
           ]
         }
       ],
+
+      // '/Secret/': [
+      //   //Regrets
+      //   {
+      //     text: 'Regrets',
+      //     collapsed: true,
+      //     items: [
+      //       { text: 'Regrets 1 & 2',
+      //       collapsed: true, 
+      //       items: [
+      //         {text: 'Regrets1', link: '/Secret/Regrets/Regrets1.md'},
+      //         {text: 'Regrets2', link: '/Secret/Regrets/Regrets2.md'}
+            
+      //     ],
+      //       link: '/Secret/Secretfile.md' },
+      //       { text: 'Testing secret page', link: '/Secret/Secretfile.md' }
+      //     ]
+      //   }
+      // ]
     },
 
     socialLinks: [

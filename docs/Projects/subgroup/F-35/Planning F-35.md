@@ -10,7 +10,7 @@
 
 ## Plan
 
-<iframe width="700" height="394" src="https://www.youtube.com/embed/HAXxXYPeVF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="700" height="300" src="https://www.youtube.com/embed/HAXxXYPeVF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This is video made us tick to make our own F-35.
 <br>https://www.youtube.com/@Joelmelanie
