@@ -24,7 +24,7 @@ features:
   - title: The Magic Flute
     link: ./Knowledge/subgroup/Music/Opera/The_Magic_Flute
     icon: 
-      src: https://jowikipedia.com/assets/The_Magic_Flute_Cover.ea4e4091.jpg 
+      src: https://jowikipedia.com/assets/The_Magic_Flute_Cover.6350de21.jpg
       style: width:280px; height:280px; margin-left:auto; margin-right:auto;
     details: One of the greatest opera by W.A. Mozart
   - title: Feature C
