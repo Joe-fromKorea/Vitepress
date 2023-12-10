@@ -95,13 +95,13 @@
   padding-bottom: 10px;
 }
 
-/*local About sidebar padding*/
+/*local sidebar padding*/
 .VPSidebarItem.level-0[data-v-849f0c72]{
   padding-bottom: 10px;
 }
 
 
-/*About sidebar fontsize*/
+/*sidebar fontsize*/
 .text[data-v-9a82e1d6] {
   font-size:15px;
   
@@ -113,7 +113,7 @@
   color: rgb(235 235 245 / 60%)
 }
 
-/*About sidebar font color*/
+/*sidebar font color*/
 .VPSidebarItem.level-0 .text[data-v-9a82e1d6] {
-  color: var(--vp-c-text-dark-1);
+  color: var(--vp-c-text-1);
 } 
