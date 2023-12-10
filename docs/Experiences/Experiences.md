@@ -9,11 +9,11 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sun-qznNXi0?si=8oPkm8l3j7wQ_tGr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Until you make unconscious consciouss, it will direct your life and you call it fate.
-![Carl G.Jung](./images/Carl%20Jung%20picture.jpg)
+![Carl G.Jung](./images/Carl_Jung_picture.jpg)
 <br>By Carl G. Jung
 
 ## Tis a lesson you should heed, try try again; if at first you don't succeed, try try again
-<img src="./images/Magic Tree House_Twister On Tuesday.jpg" width="300"/>
+<img src="./images/Magic_Tree_House_Twister_On_Tuesday.jpg" width="300"/>
 <br>From Magic Tree House #23 Twister on Tuesday p.38
 
 ## If you can't understand for the first time, it's totally fine. But read and read it again and it will all make sense someday

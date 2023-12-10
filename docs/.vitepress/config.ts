@@ -8,6 +8,7 @@ const customElements = ['mjx-container'];
 export default /*defineConfig*/({
   title: "Jokipedia",
   description: "Knowledge",
+  ignoreDeadLinks: true,
   themeConfig: {
     outlineTitle: 'In this page',
     search: {
