@@ -19,15 +19,19 @@ features:
     link: ./Projects/subgroup/F-35/Making F-35
     icon:
       src: https://jowikipedia.com/assets/F-35.65f7aacf.jpg #First upload in different page, and then pull it from that page. First step is to npm run docs build and preview it.
-      style: width:auto; height:250px; margin-left:auto; margin-right:auto;
+      style: width:auto; height:200px; margin-left:auto; margin-right:auto;
     details: My friend and I made our own RC plane from scratch!
   - title: The Magic Flute
     link: ./Knowledge/subgroup/Music/Opera/The_Magic_Flute
     icon: 
       src: https://jowikipedia.com/assets/The_Magic_Flute_Cover.6350de21.jpg
-      style: width:280px; height:280px; margin-left:auto; margin-right:auto;
+      style: width:280px; height:auto; margin-left:auto; margin-right:auto;
     details: One of the greatest opera by W.A. Mozart
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Will be updated
+  - title: Feature D
+    details: Will be updated
+  - title: Feature E 
+    details: Will be updated
 ---
 

@@ -54,7 +54,7 @@ The most imporatnt thing is **Know the story, Know the music**.
 
 Also, number 3 appears so many time in the Magic Flute.
 <br> It is because Mozart was part of Premaison, and they believed 3 is the most stable number.
-<br> This might be seemed as conspiracy theory, but it is regarded as true for many experts.
+<br> This might be seemed as conspiracy theory, but it is regarded true by many experts.
 <br>
 <br>
 <center><img src="../Opera/picture/The_Magic_Flute/The_Magic_Flute_Cover.jpg" width="500" margin-left/></center>
