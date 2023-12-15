@@ -21,7 +21,11 @@ export default /*defineConfig*/({
       { text: 'Knowledge', link: '/Knowledge/Knowledge' },
       { text: 'Projects', link: '/Projects/Projects' },
       { text: 'Experiences', link: '/Experiences/Experiences' },
-      { text: 'Donation', link: 'https://www.patreon.com/WikipediaJo/creators' }
+      { text: 'Donation', link: 'https://www.patreon.com/WikipediaJo/creators', collapsed: true,
+        items:[
+          {text: 'Patreon', link: 'https://www.patreon.com/WikipediaJo/creators'},
+          {text: 'Paypal', link: 'willbeupdated'},
+        ] }
     ],
 
     sidebar: {
@@ -78,18 +82,34 @@ export default /*defineConfig*/({
           text: 'Academic',
           collapsed: true,
           items: [
-            { text: 'F-35 RC Plane',
+            { text: 'Freshman', link: '/Projects/subgroup/F-35/Planning F-35',
             collapsed: true, 
             items: [
               {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
-              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
-              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
-            
-          ],
-            link: '/Projects/subgroup/F-35/Planning F-35' },
-            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
-            { text: 'Two', link: '/guide/two' }
+              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
+                  ] 
+             },
+            { text: 'Sophomore', link: '/Projects/subgroup/F-35/Planning F-35',
+             collapsed: true, 
+             items: [
+               {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+               {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
+                   ] 
+             },
+            { text: 'Junior', link: '/Projects/subgroup/F-35/Planning F-35',
+              collapsed: true, 
+              items: [
+                {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+                {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
+                    ] 
+             },
+            { text: 'Senior', link: '/Projects/subgroup/F-35/Planning F-35',
+             collapsed: true, 
+             items: [
+               {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+               {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
+                   ] 
+             }, 
           ]
         },
         //Music
@@ -246,7 +266,62 @@ export default /*defineConfig*/({
             { text: 'Two', link: '/guide/two' }
           ]
         },
-        //Middle
+        //Middle School
+        {
+          text: 'Middle School',
+          collapsed: true,
+          items: [
+            { text: 'F-35 RC Plane',
+            collapsed: true, 
+            items: [
+              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
+              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
+              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
+            
+          ],
+            link: '/Projects/subgroup/F-35/Planning F-35' },
+            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
+            { text: 'Two', link: '/guide/two' }
+          ]
+        },
+        //High School
+        {
+          text: 'Middle',
+          collapsed: true,
+          items: [
+            { text: 'F-35 RC Plane',
+            collapsed: true, 
+            items: [
+              {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
+              {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},
+              {text: 'Making', link: '/Projects/subgroup/F-35/Making F-35'},
+              {text: 'What We&#39;ve Learned', link: '/Projects/subgroup/F-35/What We Learned'}
+            
+          ],
+            link: '/Projects/subgroup/F-35/Planning F-35' },
+            { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
+            { text: 'Two', link: '/guide/two' }
+          ]
+        },
+        //College
+        {
+          text: 'College', link: '/Projects/subgroup/F-35/Planning F-35',
+          collapsed: true,
+          items: [
+            { text: 'Exchange Student - New York University', link: '/Experiences/College/Exchange_Student/Exchange_Student_Intro',
+              collapsed: true, 
+            items: [
+              {text: 'Experiences', link: '/Experiences/College/Exchange_Student/Experiences'},
+              {text: 'What I learned', link: '/Experiences/College/Exchange_Student/What_I_Learned'}  
+                  ],
+             },
+            { text: 'Basketball Club', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
+            { text: 'Drone Club', link: '/guide/two' },
+            { text: 'Musical Club', link: '/guide/two' }
+          ]
+        },
+        //Military_Service
         {
           text: 'Middle',
           collapsed: true,
