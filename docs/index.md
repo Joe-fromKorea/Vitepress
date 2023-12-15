@@ -30,7 +30,7 @@ features:
   - title: Exchange Student - NYU
     link: ./Experiences/College/Exchange_Student/Exchange_Student_Intro
     icon: 
-      src: ./Experiences/College/Exchange_Student/Image/NYU_Thumbnail.jpg
+      src: https://jowikipedia.com/assets/NYU_Thumbnail.3daad685.jpg
       style: width:280px; height:auto; margin-left:auto; margin-right:auto;  
     details: Studying as an Exchange Student at New York University
   - title: Feature D
