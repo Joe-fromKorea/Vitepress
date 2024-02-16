@@ -162,10 +162,11 @@ export default /*defineConfig*/({
             { text: 'CFD',
             collapsed: true, 
             items: [
-              {text: 'Future of CFD', link: '/Knowledge/subgroup/Engineering/CFD/Future_of_CFD'},
-              {text: 'How_to_be_CFD_Engineer', link: '/Knowledge/subgroup/Engineering/CFD/How_to_be_CFD_Engineer'},
+              {text: 'ANSYS', link: '/Knowledge/subgroup/Engineering/CFD/ANSYS'},
+              {text: 'Fluid Dynamics', link: '/Knowledge/subgroup/Engineering/CFD/Fluid Dynamics'},
+              {text: 'Miscellaneous', link: '/Knowledge/subgroup/Engineering/CFD/Miscellaneous'},
                    ],
-            link: '/Projects/subgroup/F-35/Planning F-35' },
+            link: '/Knowledge/subgroup/Engineering/CFD/CFD' },
                  ]
         },
         //Neuroscience
@@ -365,7 +366,7 @@ export default /*defineConfig*/({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/seongwoo-jo-a01b15223/' },
-      { icon: 'instagram', link: 'https://www.instagram.com/seongwoo0517/' },
+      { icon: 'instagram', link: 'https://www.instagram.com/jo_seongwoo0517' },
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UCrt6CKGAe5jvGL2j5uuWqHg' }
     ]
   },
