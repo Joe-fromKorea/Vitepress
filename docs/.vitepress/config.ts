@@ -162,8 +162,17 @@ export default /*defineConfig*/({
             { text: 'CFD',
             collapsed: true, 
             items: [
-              {text: 'ANSYS', link: '/Knowledge/subgroup/Engineering/CFD/ANSYS'},
-              {text: 'Fluid Dynamics', link: '/Knowledge/subgroup/Engineering/CFD/Fluid Dynamics'},
+              {text: 'ANSYS', link: '/Knowledge/subgroup/Engineering/CFD/ANSYS',
+                collapsed: true,
+                items: [
+                  {text: 'Cylinder Flow', link: '/Knowledge/subgroup/Engineering/CFD/ANSYS/Cylinder_flow'}
+                ]},
+                {text: 'CFD Knowledge', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge',
+                collapsed: true,
+                items: [
+                  {text: 'Eddy Viscosity Models', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge/Eddy_viscosity_models'}
+                ]},
+              {text: 'Fluid Dynamics', link: '/Knowledge/subgroup/Engineering/CFD/Fluid_Dynamics'},
               {text: 'Miscellaneous', link: '/Knowledge/subgroup/Engineering/CFD/Miscellaneous'},
                    ],
             link: '/Knowledge/subgroup/Engineering/CFD/CFD' },
@@ -372,6 +381,7 @@ export default /*defineConfig*/({
   },
 
   markdown: {
+    math: true,
     config: (md) => {
       md.use(mathjax3);
     },

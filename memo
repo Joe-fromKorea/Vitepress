@@ -1,2 +1,40 @@
 add donation collapsed feature
 add my bio and smth to the feature tab (home)
+add my past
+add my exchange student experience
+add exchange student courses
+add knowledges
+
+---
+npm run docs:dev
+npm run docs:build
+npm run docs:preview
+
+---
+Toggle feature
+
+<details>
+<summary> Something you want to write </summary>
+
+contents
+
+</details>
+
+---
+Bold - HTML
+
+<strong> smth </strong>
+
+---
+font size - HTML
+
+<font size="5"> Smth </font>
+
+or
+
+<
+
+---
+ctrl+C: terminate npm run docs:dev or npm run docs:preview
+
+---

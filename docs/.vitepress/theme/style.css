@@ -110,10 +110,36 @@
 /*sidebar 2nd text fontsize*/
 .VPSidebarItem.level-1 .text[data-v-9a82e1d6], .VPSidebarItem.level-2 .text[data-v-9a82e1d6], .VPSidebarItem.level-3 .text[data-v-9a82e1d6], .VPSidebarItem.level-4 .text[data-v-9a82e1d6], .VPSidebarItem.level-5 .text[data-v-9a82e1d6]{
   font-size: 14px;
-  color: rgb(235 235 245 / 60%)
+  /*color: rgb(235 235 245 / 60%)*/
 }
 
 /*sidebar font color*/
 .VPSidebarItem.level-0 .text[data-v-9a82e1d6] {
-  color: var(--vp-c-text-1);
+  /*color: var(--vp-c-text-1);*/
 } 
+
+
+/*enable math inline text*/
+.MathJax SVG {
+  display: inline !important;
+}
+
+/*make cursor pointer at the summary toggle*/
+.vp-doc p, .vp-doc summary {
+    cursor: pointer;
+}
+
+/*hovering mouse over summary toggle - change color to blue*/
+.vp-doc summary:hover {
+  color: var(--vp-c-brand);
+}
+
+/*border between headings*/
+.vp-doc h2 {
+  border-top: 2px solid rgba(149, 149, 149, 0.468)
+}
+
+/* custom border ---*/
+.vp-doc hr {
+  border-top: 1px dotted rgba(251, 251, 251, 0.303);
+}

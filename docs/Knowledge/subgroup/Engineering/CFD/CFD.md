@@ -9,6 +9,8 @@
 <br> Best for those who first try CFD tool.
 
 ## Books
+Schlichting, H., & Gersten, K. (2017). Boundary-Layer theory. In Springer eBooks. https://doi.org/10.1007/978-3-662-52919-5 - cited by 42718
+<br>Patankar, S. V. (2018). Numerical heat transfer and fluid flow. In CRC Press eBooks. https://doi.org/10.1201/9781482234213 - cited by 45055
 
 
 
