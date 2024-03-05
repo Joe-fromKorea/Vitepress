@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import mathjax3 from 'markdown-it-mathjax3';
+import footnote from 'markdown-it-footnote'
 
 const customElements = ['mjx-container'];
 
@@ -170,9 +171,14 @@ export default /*defineConfig*/({
                 {text: 'CFD Knowledge', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge',
                 collapsed: true,
                 items: [
-                  {text: 'Eddy Viscosity Models', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge/Eddy_viscosity_models'}
+                  {text: 'RANS', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge/RANS'},
+                  {text: 'LES', link: '/Knowledge/subgroup/Engineering/CFD/CFD_Knowledge/LES'}
                 ]},
-              {text: 'Fluid Dynamics', link: '/Knowledge/subgroup/Engineering/CFD/Fluid_Dynamics'},
+              {text: 'Fluid Dynamics', link: '/Knowledge/subgroup/Engineering/CFD/Fluid_Dynamics',
+                collapsed: true,
+                items: [
+                  {text: 'Fundamentals', link: '/Knowledge/subgroup/Engineering/CFD/Fluid_Dynamics/Fundamentals'}
+              ]},
               {text: 'Miscellaneous', link: '/Knowledge/subgroup/Engineering/CFD/Miscellaneous'},
                    ],
             link: '/Knowledge/subgroup/Engineering/CFD/CFD' },
@@ -383,7 +389,8 @@ export default /*defineConfig*/({
   markdown: {
     math: true,
     config: (md) => {
-      md.use(mathjax3);
+      md.use(mathjax3),
+      md.use(footnote);
     },
   },
   vue: {

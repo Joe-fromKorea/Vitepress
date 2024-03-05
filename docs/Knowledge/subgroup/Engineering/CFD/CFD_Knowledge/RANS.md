@@ -1,6 +1,4 @@
-# Eddy Viscosity Model from RANS and LES
-
-## RANS
+# RANS
 
 <details>
 <summary><strong> What is RANS </strong></summary>
@@ -141,12 +139,67 @@ And here comes the famous $k-\epsilon$ model.
 * Fluid Mechanics 101 (2021, Feb 24), [CFD] Eddy Viscosity Models for RANS and LES, https://www.youtube.com/watch?v=SVYXNICeNWA&list=PLnJ8lIgfDbkrNyps1_36tNRRQ7hLzPFhV
 * Schlichting, H., & Gersten, K. (2017). Boundary-Layer theory. In Springer eBooks. https://doi.org/10.1007/978-3-662-52919-5
 
+</details>
 
+## $k-\epsilon$ Model
 
+<details>
+<summary><strong> What is k-epsilon model </strong></summary>
 
+* $k-\epsilon$ model is one of eddy visosity models that uses $k$ & $\epsilon$ 
+* $k$ & $\epsilon$ is obtained from $k$ transport equation and $\epsilon$ transport equation.
+* It uses damping function to compensate the viscosity effect near the wall.
+ 
+</details>
 
+<details>
+<summary><strong> Mathematical Expression of k-epsilon Model </strong></summary>
 
+:::info
+There are lots of version of k-epsilon model, but here, I introduced Launder-Sharma model.
+<br>You can find various k-epsilon model at 
+<br>Patel VC, Rodi W, Scheurer G. turbulence models for near-wall and low Reynolds number flows: a
+review. AIAA J 1985;23:1308-19
+:::
 
+From Eddy Viscosity Model, $k$ - $\epsilon$ model is defined as 
+$$\mu_t = \rho C_\mu f_\mu \frac{k^2}{\epsilon}$$
+<br>where $\rho$ is density
+<br>$C_\mu$ is adjustable coefficient,
+<br>$f_\mu$ is a damping function,
+<br>$k$ is TKE (Turbulence Kinetic Energy),
+<br>$\epsilon$ is Turbulence Dissipation Rate.
+
+And $k$ and $\epsilon$ is obtained by transport equation.
+<br>$k$ transport equation is,
+
+$$ 
+\frac{\partial \rho k}{\partial t} + \frac{\partial}{\partial x_j}(\rho \nu_j k) = \frac{\partial}{\partial x_j} \Big[ \big(\mu_L+\frac{\mu_T}{\sigma_k}\big)\frac{\partial k}{\partial x_j}\Big] + τ^F_{ij}S_{ij}− ρε 
+$$
+
+where 
+$\nu_j$ is velocity component in corresponding direction,
+<br>$\mu_L$ is Laminar Viscosity,
+<br>$\mu_T$ is Turbulence Viscosity,
+<br>$\sigma_k$ is adjustable coefficient,
+<br>$τ^F_{ij}$ is Favre-averaged turbulent stresses
+<br>and $S_{ij}$ is strain-rate tensor
+
+$\epsilon$ transport equation is,
+$$
+\frac{∂ρε}{∂t}+\frac{∂}{∂x_j}(ρ\nu_jε) = \frac{∂}{∂x_j} \Big[ \big(\mu_L+\frac{\mu_T}{\sigma_\epsilon}\big)\frac{\partial ε}{\partial x_j}\Big] + C_{ε1}f_{ε1}\frac{ε}{k}τ^F_{ij}S_{ij} − C_{ε2}f_{ε2}\rho \frac{{ε}^2}{k} +\phi_ε
+$$
+
+where 
+<br>$\sigma_k$ is adjustable coefficient,
+<br> $C_{ε1},C_{ε2},C_{ε3}$ are adjustable coefficient,
+<br>$f_{ε1}, f_{ε2}$ are damping functions,
+<br>and $\phi_ε$ is explicit wall term.
+
+:::info
+These equations are from Blazek, J. (2015). Computational Fluid Dynamics: Principles and applications. Butterworth-Heinemann. 
+<br>Some terms might vary depending on the expression
+:::
 </details>
 
 ## LES

@@ -14,7 +14,7 @@ npm run docs:preview
 Toggle feature
 
 <details>
-<summary> Something you want to write </summary>
+<summary><strong> Something you want to write </strong></summary>
 
 contents
 
@@ -36,5 +36,23 @@ or
 
 ---
 ctrl+C: terminate npm run docs:dev or npm run docs:preview
+
+---
+
+we have insert footnote feature to the vitepress.
+
+1. npm install markdown-it-footnote --save
+2.// .vitepress/config.js
+
+import footnote from 'markdown-it-footnote'
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  }
+})
 
 ---
