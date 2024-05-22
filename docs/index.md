@@ -16,9 +16,9 @@ hero:
 
 features:
   - title: CFD
-    link: ./Knowledge/Engineering/CFD/CFD_Knowledge/RANS.md
+    link: ./Knowledge/subgroup/Engineering/CFD/CFD_Knowledge/RANS.md
     icon:
-      src: http://localhost:4173/assets/CFD_airplane_cover.a5a4c58a.jpg #First upload in different page, and then pull it from that page. First step is to npm run docs build and preview it.
+      src: https://jowikipedia.com/assets/CFD_airplane_cover.a5a4c58a.jpg #First upload in different page, and then pull it from that page. First step is to npm run docs build and preview it.
       style: width:auto; height:220px; margin-left:auto; margin-right:auto; #margin-bottom:30px;
     details: CFD notes
   - title: F-35 RC Project
