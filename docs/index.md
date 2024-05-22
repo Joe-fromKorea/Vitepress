@@ -15,6 +15,12 @@ hero:
       link: /About/Aboutme
 
 features:
+  - title: CFD
+    link: ./Knowledge/Engineering/CFD/CFD_Knowledge/RANS.md
+    icon:
+      src: http://localhost:4173/assets/CFD_airplane_cover.a5a4c58a.jpg #First upload in different page, and then pull it from that page. First step is to npm run docs build and preview it.
+      style: width:auto; height:220px; margin-left:auto; margin-right:auto; #margin-bottom:30px;
+    details: CFD notes
   - title: F-35 RC Project
     link: ./Projects/subgroup/F-35/Making F-35
     icon:
@@ -34,6 +40,8 @@ features:
       style: width:280px; height:auto; margin-left:auto; margin-right:auto;  
     details: Studying as an Exchange Student at New York University
   - title: Feature D
+    details: Will be updated
+  - title: Feature E 
     details: Will be updated
   - title: Feature E 
     details: Will be updated

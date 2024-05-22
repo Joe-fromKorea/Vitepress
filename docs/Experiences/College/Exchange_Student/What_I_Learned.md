@@ -35,8 +35,10 @@ For me it was,
 ### Thing to look at when taking a house tour
 
 ### Agreement 
+date, name, conditions, 
 
 ### Legal stuffs
+sending money - tax / reporting IRS
 
 ### 
 

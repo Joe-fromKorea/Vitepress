@@ -203,3 +203,7 @@ These equations are from Blazek, J. (2015). Computational Fluid Dynamics: Princi
 </details>
 
 ## LES
+
+<center><img src="./CFD_airplane_cover.jpg" width="500" margin-left/></center>
+
+[CFD_airplane_cover](./CFD_airplane_cover.jpg)
