@@ -104,11 +104,12 @@ export default /*defineConfig*/({
                 {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
                     ] 
              },
-            { text: 'Senior', link: '/Projects/subgroup/F-35/Planning F-35',
+            { text: 'Senior', link: '/Knowledge/subgroup/Academic/Senior/Senior.md',
              collapsed: true, 
              items: [
-               {text: 'Planning', link: '/Projects/subgroup/F-35/Planning F-35'},
-               {text: 'How it works', link: '/Projects/subgroup/F-35/How It Works'},            
+               {text: 'Spring', link: '/Knowledge/subgroup/Academic/Senior/Spring.md'},
+               {text: 'Summer', link: '/Knowledge/subgroup/Academic/Senior/Summer.md'},
+               {text: 'Fall', link: '/Knowledge/subgroup/Academic/Senior/Fall.md'},            
                    ] 
              }, 
           ]
