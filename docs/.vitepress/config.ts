@@ -7,8 +7,22 @@ const customElements = ['mjx-container'];
 
 // https://vitepress.dev/reference/site-config
 export default /*defineConfig*/({
-  title: "Jokipedia",
+  /*title: "Jokipedia",
   description: "Knowledge",
+  ignoreDeadLinks: true,
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    fr: {
+      label: 'French',
+      lang: 'fr', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/fr/guide' // default /fr/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    }
+  },*/
   ignoreDeadLinks: true,
   themeConfig: {
     outlineTitle: 'In this page',
@@ -57,8 +71,7 @@ export default /*defineConfig*/({
         }
       ],
       '/Projects/': [
-        {
-          text: 'RC Plane',
+        { text: 'RC Plane',
           collapsed: true,
           items: [
             { text: 'F-35 RC Plane',
@@ -73,6 +86,13 @@ export default /*defineConfig*/({
             link: '/Projects/subgroup/F-35/Planning F-35' },
             { text: 'Making V-22 Osprey RC Plane', link: '/Projects/subgroup/Making V-22 Osprey RC Plane' },
             { text: 'Two', link: '/guide/two' }
+          ]
+        },
+        { text: 'Music',
+          collapsed: true,
+          items: [
+            { text: 'Songs I can Sing', link: '/Projects/subgroup/Music/Songs_I_can_sing.md' },
+            { text: 'Songs I like', link: '/Projects/subgroup/Music/Songs_I_like.md'}
           ]
         }
       ],
